@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+
+<body bgcolor="#6B8E23">
+
+    <form action="mailto:destinatario@gmail.com?subject=Contato via site pessoal" enctype="text/plain" method="post">
+        <label for="visitante">Seu nome</label>
+        <input type="text" name="visitante" placeholder="Informe seu nome" />
+        <br /><br />
+        <label for="email">E-mail</label>
+        <input type="email" name="email" placeholder="Informe seu email" required>
+        <br /><br />
+        <label for="mensagem">Mensagem</label>
+        <textarea name="mensagem" cols="30" rows="20" required></textarea>
+        <hr />
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Limpar campos">
+
+    </form>
+
+</body>
+
+</html>
